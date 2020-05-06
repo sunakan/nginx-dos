@@ -1,0 +1,27 @@
+= Nginx
+
+== Web側
+
+----
+$ make web
+web側コンテナ内
+$ cd web && make up
+----
+
+or
+
+----
+$ make web-up
+----
+
+* http://${WEB-IP}:8080/containers/docker/${NGINXのコンテナID}
+
+== Attacker側
+
+----
+$ make attacker
+$ cd attacker-codes
+$ make ash
+コンテナ内で
+$ k6 run script.js
+----

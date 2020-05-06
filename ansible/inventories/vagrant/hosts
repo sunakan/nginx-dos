@@ -1,0 +1,10 @@
+[prometheus_grp]
+prometheus
+
+[exporter_grp]
+web
+attacker
+
+[all:children]
+prometheus_grp
+exporter_grp
