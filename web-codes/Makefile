@@ -1,5 +1,7 @@
 export DOCKER_CADVISOR_TAG=v0.36.0
 export DOCKER_CADVISOR_NAME=cadvisor
+export DOCKER_TELEGRAf_TAG=1.14.2-alpine
+export DOCKER_CADVISOR_NAME=cadvisor
 export DOCKER_NGINX_NAME=nginx
 export DOCKER_APP_NAME=app
 export DOCKER_NETWORK_NAME=web-network
